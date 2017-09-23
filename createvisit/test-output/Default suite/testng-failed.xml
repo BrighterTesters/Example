@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="adminpwd" value="Mmpadmin2017"/>
+  <parameter name="adminid" value="padmajap"/>
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/"/>
+  <parameter name="searchpatient" value="123121234"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mmp.createvisit.CreateVisitByAdminTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="searchForPatient"/>
+          <include name="createVisitForPatient"/>
+          <include name="beforeMethod"/>
+          <include name="loginAdmin"/>
+        </methods>
+      </class> <!-- com.mmp.createvisit.CreateVisitByAdminTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
